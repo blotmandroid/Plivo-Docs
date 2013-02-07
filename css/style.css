@@ -73,6 +73,13 @@ body 	{
 	color: rgb(77, 77, 77);
 }
 
+#top-navbar ul li a:hover {
+	text-decoration: none;
+	font-family: 'Asap', sans-serif;
+	font-size: 14px;
+	color: rgb(120, 175, 0);
+}
+
 #top-navbar ul li.active	{
 	background-color: rgb(120, 175, 0);
 }
