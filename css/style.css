@@ -39,10 +39,11 @@ body 	{
 
 #nav-container	{
 	height: 50px;
-	width: 100%;
+	width: 940px;
 	padding: 0px;
 	position: relative;
 	top: 64px;
+	left: 170px;
 }
 
 #top-navbar 	{
@@ -183,5 +184,9 @@ body 	{
 	color: rgba(77, 77, 77, 0.8);
 	padding: 0 12px;
 	line-height: 20px;
+	text-decoration: none;
+}
+
+.box-link a {
 	text-decoration: none;
 }
