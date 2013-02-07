@@ -33,7 +33,7 @@ body 	{
 
 
 #container-mid	{
-	height: 500px;
+	height: 600px;
 }
 
 
@@ -83,22 +83,46 @@ body 	{
 
 
 #center-logo	{
-	width: 300px;
+	width: 350px;
 	height: 80px;
 	position: relative;
-	left: 480px;
-	top: 65px;
-	background-color: rgba(77, 77, 77, 0.5);
-	border-radius: 5px;
+	left: 460px;
+	top: 70px;
+	clear: both;
+}
+
+#center-logo h1 {
+	font-family: 'Asap', sans-serif;
+	font-weight: 700;
+	float: left;
+	font-size: 50px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+#center-logo img {
+	height: 80px;
+	width: 80px;
+	float: left;
+}
+
+#center-logo h2 {
+	font-family: sans-serif;
+	font-weight: 100;
+	float: left;
+	font-size: 45px;
+	margin-top: 15px;
+	margin-left: 5px;
 }
 
 
 #text-container	{
-	width: auto;
+	clear: both;
+	width: 850px;
 	height: auto;
 	position: relative;
-	left: 210px;
-	top: 70px;
+	left: 225px;
+	top: 75px;
 }
 
 #text-container p 	{
@@ -108,4 +132,46 @@ body 	{
 	font-size: 14px;
 	line-height: 18px;
 	color: rgb(77, 77, 77);
+}
+
+
+#box-link-container	{
+	width: 940px;
+	height: 250px;
+	position: relative;
+	left: 170px;
+	top: 90px;
+}
+
+.box-link	{
+	width: 220px;
+	height: 250px;
+	position: relative;
+	margin: 0 5px 0 5px;
+	float: left;
+	border-radius: 5px;
+ 	/*border: 1px solid rgb(120, 175, 0);*/
+}
+
+.box-link h1 {
+	font-family: 'Asap', sans-serif;
+	margin-top: 20px;
+	color: rgb(120, 175, 0);
+	text-align: center;
+}
+
+.box-link h2 {
+	font-family: 'Asap', sans-serif;
+	text-align: center;
+	margin-top: -15px;
+	color: rgb(120, 175, 0);
+}
+
+.box-link p {
+	text-align: center;
+	font-family: 'Asap', sans-serif;
+	font-size: 14px;
+	color: rgba(77, 77, 77, 0.8);
+	padding: 0 12px;
+	line-height: 20px;
 }
